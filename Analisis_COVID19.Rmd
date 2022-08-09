@@ -19,12 +19,11 @@ library(plotly)
 library(xts)
 library(dygraphs)
 
-use_python("/Users/juangabriel/opt/anaconda3/bin/python3")
 ```
 
 # Carga y limpieza preliminar de los datos
 
-Los datos que se van a analizar en este documento, proceden de la compilación hecha por usuarios de [Kaggle](https://www.kaggle.com/imdevskp/corona-virus-report). La fecha del análisis empieza el 6 de Abril de 2020, utilizando la versión número 73 recopilada en la web anterior.
+Los datos que se van a analizar en este documento, proceden de la compilación hecha por usuarios de [Kaggle](https://www.kaggle.com/imdevskp/corona-virus-report). La fecha del análisis empieza el 6 de Abril de 2020, utilizando la versión número 166 recopilada en la web anterior.
 
 ```{python}
 import pandas as pd
